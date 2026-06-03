@@ -53,8 +53,9 @@ import anthropic
 # Project model. Swap here to upgrade, e.g. "claude-opus-4-8".
 MODEL = "claude-sonnet-4-6"
 
-# Web search server tool version requested by the brief.
-WEB_SEARCH_TOOL = {"type": "web_search_20250305", "name": "web_search"}
+# Web search server tool. The 20260209 version adds dynamic filtering (Claude filters
+# results with code before they hit context) — better accuracy on niche primary sources.
+WEB_SEARCH_TOOL = {"type": "web_search_20260209", "name": "web_search"}
 
 MAX_TOKENS = 8000
 BATCH_DELAY_SECONDS = 2          # rate-limit cushion between batch searches

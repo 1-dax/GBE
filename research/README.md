@@ -69,8 +69,8 @@ Run any of them with `--preset N`:
 
 ## How it works
 
-- **Web search** is enabled on every call (`web_search_20250305`), so answers reflect
-  current sources, not training data.
+- **Web search** is enabled on every call (`web_search_20260209`, with dynamic
+  filtering), so answers reflect current sources, not training data.
 - **Prompt caching** is applied to the large fixed system prompt (project background),
   so repeated calls — e.g. in `--batch` — reuse the cached prefix.
 - **Conversation history** is kept within a session in `--interactive` mode, so a
