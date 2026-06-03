@@ -1,0 +1,12 @@
+.env
+.research_data/
+exports/*.png
+exports/*.pdf
+exports/*.md
+exports/*.json
+__pycache__/
+*.pyc
+*.sqlite
+batch_results.json
+node_modules/
+.DS_Store

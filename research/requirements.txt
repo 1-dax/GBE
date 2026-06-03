@@ -1,0 +1,2 @@
+# Brazil market research agent
+anthropic>=0.69.0

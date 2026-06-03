@@ -1,0 +1,43 @@
+{
+  "unit_costs": {
+    "football_shirt": {
+      "argentina": 18.00,
+      "paraguay": 12.00,
+      "asia": 8.50,
+      "cafta_dr": 10.50
+    },
+    "source": "R&A client data (Matias, May 27 2026) + industry benchmarks",
+    "date": "2026-05-27"
+  },
+  "labor": {
+    "argentina": { "min_wage_usd_mo": 265, "non_wage_load_pct": 0.70 },
+    "paraguay": { "min_wage_usd_mo": 385, "non_wage_load_pct": 0.33 },
+    "brazil":   { "min_wage_usd_mo": 262, "non_wage_load_pct": 0.70 },
+    "honduras": { "min_wage_usd_mo": 337, "non_wage_load_pct": 0.25 },
+    "mexico":   { "min_wage_usd_mo": 501, "non_wage_load_pct": 0.32 },
+    "vietnam":  { "min_wage_usd_mo": 185, "non_wage_load_pct": 0.18 },
+    "source": "IDB Labor Cost Study; REDIEX; ILO 2026"
+  },
+  "tax": {
+    "paraguay_maquila_rate": 0.01,
+    "paraguay_maquila_base": "local value added only",
+    "paraguay_corporate": 0.10,
+    "argentina_effective": "high — see notes",
+    "source": "PwC Tax Summaries; Paraguay Law 7547/2025"
+  },
+  "tariffs": {
+    "us_global_floor_section_122": 0.15,
+    "china_effective_us_apparel": 0.508,
+    "mercosur_intra_tariff": 0.00,
+    "mercosur_content_threshold": 0.40,
+    "source": "USITC DataWeb; Tax Foundation tracker; Mercosur treaty"
+  },
+  "brazil_market": {
+    "tam_sports_apparel_2025_usd_m": 4800,
+    "cagr_pct": 0.041,
+    "nike_market_share_pct": 0.19,
+    "adidas_market_share_pct": 0.22,
+    "cotton_material_share_pct": 0.31,
+    "source": "IMARC Group 2025; Euromonitor Sportswear in Brazil 2025"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "targets": [
+    {
+      "name": "Lupo",
+      "priority": 1,
+      "b3_ticker": null,
+      "product_focus": ["football shirts", "cotton basics", "underwear"],
+      "material_mix": "cotton-heavy",
+      "outsources": true,
+      "warm_lead": true,
+      "warm_lead_note": "Has previously contacted R&A directly",
+      "outreach_status": "not started",
+      "revenue_note": "~BRL 1B+ annually (estimate)",
+      "next_action": "Draft Portuguese outreach this week"
+    },
+    {
+      "name": "Alto Giro",
+      "priority": 1,
+      "b3_ticker": null,
+      "product_focus": ["women's activewear", "fitness"],
+      "material_mix": "cotton-dominant",
+      "outsources": null,
+      "warm_lead": false,
+      "outreach_status": "not started",
+      "next_action": "Pull B3 filings first to confirm sourcing model"
+    },
+    {
+      "name": "LIVE!",
+      "priority": 2,
+      "b3_ticker": null,
+      "product_focus": ["athleisure", "lifestyle active"],
+      "material_mix": "mixed",
+      "outsources": null,
+      "warm_lead": false,
+      "outreach_status": "not started",
+      "next_action": "Approach after Alto Giro confirmation"
+    },
+    {
+      "name": "Track&Field",
+      "priority": 3,
+      "b3_ticker": "TFCO4",
+      "product_focus": ["technical performance", "premium"],
+      "material_mix": "synthetic-heavy",
+      "outsources": "partial",
+      "warm_lead": false,
+      "outreach_status": "not started",
+      "next_action": "Approach last — needs reference contract first"
+    },
+    {
+      "name": "Nike Brazil",
+      "priority": 2,
+      "b3_ticker": null,
+      "product_focus": ["technical performance", "football"],
+      "material_mix": "synthetic",
+      "outsources": true,
+      "warm_lead": true,
+      "warm_lead_note": "Existing Tier-1 relationship via R&A Argentina",
+      "outreach_status": "activate via existing contacts",
+      "next_action": "Ask Matias whether R&A has raised Paraguay with Nike sourcing team"
+    },
+    {
+      "name": "Puma Brazil",
+      "priority": 2,
+      "b3_ticker": null,
+      "product_focus": ["performance", "lifestyle"],
+      "material_mix": "mixed",
+      "outsources": true,
+      "warm_lead": true,
+      "warm_lead_note": "Existing Tier-1 relationship via R&A Argentina",
+      "outreach_status": "activate via existing contacts",
+      "next_action": "Confirm which Brazil styles are locally vs. Asia-sourced"
+    },
+    {
+      "name": "Centauro/SBF",
+      "priority": 3,
+      "b3_ticker": "CNTO3",
+      "product_focus": ["multi-brand retail"],
+      "material_mix": "varies",
+      "outsources": true,
+      "warm_lead": false,
+      "outreach_status": "not started",
+      "next_action": "Only relevant if R&A pursues own-brand entry — retailer not manufacturer"
+    }
+  ],
+  "competitive_risks": [
+    {
+      "name": "Grupo Dass",
+      "note": "Opening a Paraguay factory per client (Karen, May 27). Owns Olympikus, Reebok Brazil license. 100k employees. VERIFY URGENTLY.",
+      "verified": false
+    },
+    {
+      "name": "Supertex (Colombia)",
+      "note": "Closest strategic peer — vertically integrated LatAm contract manufacturer for Nike, Adidas, New Balance. Not in Paraguay.",
+      "verified": true
+    }
+  ]
+}
