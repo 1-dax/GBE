@@ -38,6 +38,35 @@ All charts export to `exports/`.
 ### Data (`data/`)
 Shared benchmark data used by all tools. Edit `benchmarks.json` when client data arrives — all visualizations pull from this file automatically.
 
+## Web app for the team (`streamlit_app.py`)
+
+The research agent is also available as a shared web app — teammates open a URL, pick a
+priority question (or ask their own), and get the structured answer with sources plus a
+markdown download. No terminal needed.
+
+**Run locally:**
+
+```bash
+pip install -r requirements.txt
+# provide your key one of two ways:
+#   export ANTHROPIC_API_KEY=sk-ant-...        (PowerShell: $env:ANTHROPIC_API_KEY="sk-ant-...")
+#   or create .streamlit/secrets.toml with:  ANTHROPIC_API_KEY = "sk-ant-..."
+streamlit run streamlit_app.py
+```
+
+**Deploy on Streamlit Community Cloud (free, shareable URL):**
+
+1. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
+2. New app → repo `1-dax/GBE`, branch `main`, main file `streamlit_app.py`.
+3. In **Advanced settings → Secrets**, add:
+   ```toml
+   ANTHROPIC_API_KEY = "sk-ant-..."
+   ```
+4. Deploy. Share the URL with the team.
+
+> The hosted app uses **one** API key (your spend covers everyone's searches). The
+> SQLite cache is shared per running container, so repeated questions are instant.
+
 ## Team
 Gloria Carls · Clark Tutwiler · Dax Deases · Alex Kholb
 Client: R&A Indumentaria, Buenos Aires · Contact: Matias Krebs
